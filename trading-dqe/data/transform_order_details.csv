@@ -1,0 +1,5 @@
+order_line_key,order_key,symbol,asset_type,option_type,strike,expiration,quantity,price,side,contract_key
+5001,1001,SPY,OPTION,CALL,630,2026-07-17,1,2.15,BUY,SPY-20260717-C-630
+5002,1002,QQQ,OPTION,PUT,540,2026-07-17,2,3.40,BUY,QQQ-20260717-P-540
+5003,1003,AAPL,EQUITY,,0,,10,212.20,SELL,AAPL
+5007,1007,META,EQUITY,,0,,5,705.10,BUY,META

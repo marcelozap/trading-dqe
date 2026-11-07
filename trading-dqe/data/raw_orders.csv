@@ -1,0 +1,8 @@
+order_id,external_order_id,status,order_datetime,account_number,scheduled_execution_order,strategy,provider_name,source_loaded_datetime,source_last_adjusted_datetime
+1001,EXT-1001,FILLED,2026-07-02 09:35:00,TRD-01,N,momentum_breakout,broker_a,2026-07-02 09:35:10,2026-07-02 09:36:00
+1002,EXT-1002,OPEN,2026-07-02 10:12:00,TRD-01,Y,pullback,broker_a,2026-07-02 10:12:08,2026-07-02 10:12:08
+1003,EXT-1003,CANCELLED,2026-07-02 10:45:00,TRD-02,N,mean_reversion,broker_b,2026-07-02 10:45:10,2026-07-02 10:46:00
+1004,EXT-1004,BAD_STATUS,2026-07-02 11:05:00,TRD-02,N,momentum_breakout,broker_b,2026-07-02 11:05:09,2026-07-02 11:05:09
+,EXT-1005,FILLED,2026-07-02 11:25:00,TRD-03,N,breakdown,broker_a,2026-07-02 11:25:05,2026-07-02 11:25:05
+1006,EXT-1006,FILLED,not_a_date,TRD-03,N,earnings_gap,broker_c,2026-07-02 12:03:00,2026-07-02 12:03:00
+1002,EXT-1002-DUP,OPEN,2026-07-02 10:13:00,TRD-01,Y,pullback,broker_a,2026-07-02 10:13:08,2026-07-02 10:13:08

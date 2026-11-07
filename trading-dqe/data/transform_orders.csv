@@ -1,0 +1,5 @@
+order_key,source_order_id,order_status,created_at,account_key,is_scheduled,strategy_name,provider,loaded_at
+1001,EXT-1001,FILLED,2026-07-02 09:35:00,TRD-01,false,momentum_breakout,broker_a,2026-07-02 09:35:10
+1002,EXT-1002,OPEN,2026-07-02 10:12:00,TRD-01,true,pullback,broker_a,2026-07-02 10:12:08
+1003,EXT-1003,CANCELLED,2026-07-02 10:45:00,TRD-02,false,mean_reversion,broker_b,2026-07-02 10:45:10
+1007,EXT-1007,FILLED,2026-07-02 12:20:00,TRD-03,false,manual_review,broker_c,2026-07-02 12:20:10

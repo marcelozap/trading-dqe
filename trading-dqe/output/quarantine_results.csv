@@ -1,0 +1,16 @@
+checked_at,table_name,rule_name,business_key,reason
+2026-07-07 07:28:39.588787-04,raw_orders,missing_order_id,<blank>,order_id is required
+2026-07-07 07:28:39.588787-04,raw_orders,duplicate_order_id,1002,order_id appears more than once
+2026-07-07 07:28:39.588787-04,raw_orders,duplicate_order_id,1002,order_id appears more than once
+2026-07-07 07:28:39.588787-04,raw_orders,invalid_status,1004,status is not in allowed list
+2026-07-07 07:28:39.588787-04,raw_orders,invalid_order_datetime,1006,order_datetime is missing or not a timestamp
+2026-07-07 07:28:39.588787-04,raw_order_details,detail_without_header,5004,detail order_id has no matching raw order header
+2026-07-07 07:28:39.588787-04,raw_order_details,bad_quantity,5005,quantity must be numeric and greater than zero
+2026-07-07 07:28:39.588787-04,raw_order_details,bad_price,5006,price must be numeric and greater than zero
+2026-07-07 07:28:39.588787-04,transform_orders,raw_order_missing_in_transform,1006,raw order did not land in transform orders
+2026-07-07 07:28:39.588787-04,transform_orders,raw_order_missing_in_transform,1004,raw order did not land in transform orders
+2026-07-07 07:28:39.588787-04,transform_orders,transform_order_missing_in_raw,1007,transform order has no matching raw order
+2026-07-07 07:28:39.588787-04,transform_order_details,raw_detail_missing_in_transform,5004,raw detail did not land in transform details
+2026-07-07 07:28:39.588787-04,transform_order_details,raw_detail_missing_in_transform,5005,raw detail did not land in transform details
+2026-07-07 07:28:39.588787-04,transform_order_details,raw_detail_missing_in_transform,5006,raw detail did not land in transform details
+2026-07-07 07:28:39.588787-04,transform_order_details,transform_detail_missing_in_raw,5007,transform detail has no matching raw detail

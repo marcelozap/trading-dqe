@@ -1,0 +1,12 @@
+table_name,rule_name,failed_rows
+raw_order_details,bad_price,1
+raw_order_details,bad_quantity,1
+raw_order_details,detail_without_header,1
+raw_orders,duplicate_order_id,2
+raw_orders,invalid_order_datetime,1
+raw_orders,invalid_status,1
+raw_orders,missing_order_id,1
+transform_order_details,raw_detail_missing_in_transform,3
+transform_order_details,transform_detail_missing_in_raw,1
+transform_orders,raw_order_missing_in_transform,2
+transform_orders,transform_order_missing_in_raw,1
